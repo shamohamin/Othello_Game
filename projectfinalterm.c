@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-int hold_move[8][8]={0};
+  int hold_move[8][8]={0};
 int count_move[8][8]={0};
 int count=0;
 
