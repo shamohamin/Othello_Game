@@ -1,4 +1,4 @@
 # Othello Game
 
-Othello Or Reversi Is Game Which Is Two Opponnet Compete Against Each Other.
-In This Project We Use Argv arguments Tu Pass Filed Of Game And Use Score Table To Choose Best Place For Next Move. 
+Othello Or Reversi is a strategy board game for two players, played on an 8×8 uncheckered board.<br>
+In this Project I used `argv` arguments to pass Checkboard size and used Score Table to choose best place for the next move.
