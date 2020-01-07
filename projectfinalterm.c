@@ -83,28 +83,6 @@ void findmove(int a[][8],int n,int eval[][8]){
     }
     maximum(ptox1,ptoy1,eval);
     printf("%d %d\n",*ptoy1,*ptox1);
-    // for(int i=0;i<8;i++){
-    //     for(int j=0;j<8;j++){
-    //         printf("%d",hold_move[i][j]);
-    //     }
-    //     printf("\n");
-    // }
-    // printf("#\n");
-    // for(int i=0;i<8;i++){
-    //     for(int j=0;j<8;j++){
-    //         printf("%d",count_move[i][j]);
-    //     }
-    //     printf("\n");
-    // }
-    // printf("#\n");
-    // printf("%d %d",x1,y1);
-    // a[*ptox1][*ptoy1]=n;
-    // for(int i=0;i<8;i++){
-    //     for(int j=0;j<8;j++){
-    //         printf("%d",a[i][j]);
-    //     }
-    //     printf("\n");
-    // }
 }
 
 int main(int argc, char const *argv[])
@@ -118,7 +96,7 @@ int main(int argc, char const *argv[])
     int a[8][8];
     for(int i=0;i<8;i++){
         for(int j=0;j<8;j++){
-            a[i][j]=argv[i+1][j]-48;
+            a[i][j]=argv[i+1][j]-48 ;
         }
     }
     findmove(a,n,eval);
